@@ -1,10 +1,10 @@
 # Go Agent 开发学习项目
 
-基于 Anthropic 官方 Python 教程 [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) 的 Go 语言完整重新实现，4 阶段 19 步，系统掌握 Agent 开发全链路。
+基于 shareAI-Lab 开源社区的 [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) Python 教程的 Go 语言扩展重实现，4 阶段 19 步，系统掌握 Agent 开发全链路。
 
 ## 参考项目
 
-本项目参考学习了 Anthropic 官方开源的 **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** Python 教程。该教程通过 19 个递进步骤，拆解了 Claude Code（Anthropic 的 AI 编程 Agent）的核心架构与实现原理，涵盖从基础 Agent 循环到多 Agent 协作平台的完整链路。
+本项目参考学习了 shareAI-Lab 开源社区的 **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** Python 教程。该教程通过 12 个递进 Session，拆解了 Claude Code 的 Harness 工程——即让 AI Agent 在特定领域高效运作所需的基础设施（工具、权限、上下文、多 Agent 协作等），涵盖从核心 Agent 循环到多 Agent 团队协作的完整链路。本项目在其基础上扩展为 19 步，补充了生产加固（权限、Hook、记忆、Prompt 管道、错误恢复）和后台执行（Cron、Worktree 隔离、MCP & Plugin）等内容。
 
 本项目使用 Go 语言对其进行重新实现，在保持教学脉络一致的基础上，充分利用 Go 的特性进行改进：
 
@@ -128,4 +128,4 @@ go vet ./...     # 静态检查
 
 ## 致谢
 
-- [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — Anthropic 官方 Agent 开发教程，本项目的 Python 参考原版
+- [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — shareAI-Lab 开源社区的 Agent Harness 工程教程，本项目的 Python 参考原版
