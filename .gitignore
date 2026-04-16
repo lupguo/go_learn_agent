@@ -1,0 +1,8 @@
+.env
+*.exe
+/bin/
+.idea/
+
+# Go binaries (match s03_planning, s04_subagent, etc. but not dirs)
+s*_*
+!s*_*/
