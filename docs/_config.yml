@@ -1,0 +1,21 @@
+title: Go Agent 开发学习
+description: 基于 Python learn-claude-code 的 Go 语言重新实现，4 阶段 19 步完整 Agent 开发教程
+remote_theme: just-the-docs/just-the-docs
+baseurl: /go_learn_agent
+url: https://lupguo.github.io
+
+color_scheme: light
+
+nav_sort: case_insensitive
+heading_anchors: true
+
+mermaid:
+  version: "11"
+
+back_to_top: true
+back_to_top_text: "回到顶部"
+
+footer_content: "Go Agent 开发学习项目"
+
+exclude:
+  - plans/

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Go Agent 学习总结
+nav_order: 3
+---
+
 # Go Agent 开发学习总结
 
 > 基于 Python 教程 `learn-claude-code` 的 Go 语言重新实现，4 阶段 19 步，完整覆盖 Agent 从单循环到多 Agent 平台的全链路。

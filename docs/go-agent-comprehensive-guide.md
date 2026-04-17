@@ -1,3 +1,10 @@
+---
+layout: default
+title: Go Agent 开发完整指南
+nav_order: 2
+mermaid: true
+---
+
 # Go Agent 开发完整指南
 
 > 基于 Python 教程 `learn-claude-code` 的 Go 语言重新实现，覆盖从最小 Agent 循环到多 Agent 平台的完整链路。
